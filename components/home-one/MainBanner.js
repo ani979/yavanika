@@ -2,21 +2,25 @@ import React from 'react'
 import Link from 'next/link'
 import ReactWOW from 'react-wow'
 
+const marginTop = {
+   marginTop: '-150px'
+};
+
 const MainBanner = () => {
     return (
 		<div className="main-banner">
 			<div className="d-table">
 				<div className="d-table-cell">
-					<div className="container">
+					<div className="container" style={marginTop}>
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Secure IT Solutions for a more secure environment</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
+									<h1>UI/UX Design and Development</h1>
+									<p>We are here to build you a website: your own interactive medium to showcase your business, your craft or just to tell the world who you are!</p>
 									
-									<Link href="#">
+									{/* <Link href="#">
 										<a className="btn btn-primary">Get Started</a>
-									</Link>
+									</Link> */}
 								</div>
 							</div>
 

@@ -29,12 +29,12 @@ const options = {
 class Team extends React.Component {
     render() {
         return (
-            <section className="team-area ptb-80 bg-f9f6f6">
+            <section className="team-area ptb-50 bg-f9f6f6">
                 <div className="container">
                     <div className="section-title">
                         <h2>Our Awesome Team</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                     </div>
                 </div>
 
@@ -52,8 +52,8 @@ class Team extends React.Component {
 
                                     <div className="team-content">
                                         <div className="team-info">
-                                            <h3>Josh Buttler</h3>
-                                            <span>CEO & Founder</span>
+                                            <h3>Animesh Shrivastava</h3>
+                                            <span>UX/UI Expert</span>
                                         </div>
 
                                         <ul>
@@ -80,7 +80,7 @@ class Team extends React.Component {
                                             </li>
                                         </ul>
 
-                                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                                        {/* <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p> */}
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +95,8 @@ class Team extends React.Component {
 
                                     <div className="team-content">
                                         <div className="team-info">
-                                            <h3>Alex Maxwel</h3>
-                                            <span>Marketing Manager</span>
+                                            <h3>Jonali Das</h3>
+                                            <span>UX/UI Designer</span>
                                         </div>
 
                                         <ul>
@@ -123,7 +123,7 @@ class Team extends React.Component {
                                             </li>
                                         </ul>
 
-                                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                                        {/* <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p> */}
                                     </div>
                                 </div>
                             </div>
@@ -166,13 +166,13 @@ class Team extends React.Component {
                                             </li>
                                         </ul>
 
-                                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                                        {/* <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="item">
+                        {/* <div className="item">
                             <div className="item col-lg-12">
                                 <div className="single-team">
                                     <div className="team-image">
@@ -213,7 +213,7 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
 
                         <div className="item">
                             <div className="item col-lg-12">
@@ -430,7 +430,7 @@ class Team extends React.Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        {/* <div className="item">
                             <div className="item col-lg-12">
                                 <div className="single-team">
                                     <div className="team-image">
@@ -471,9 +471,9 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </OwlCarousel>
-                </div>
+                </div> 
             </section>
         )
     }

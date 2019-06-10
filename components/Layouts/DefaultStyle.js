@@ -60,21 +60,25 @@ class DefaultStyle extends React.Component {
     
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav nav ml-auto">
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link">Home <Icon.ChevronDown /></a>
+                                    <li className="nav-item">                                      
+                                        <Link activeClassName="active" href="/">
+                                            <a className="nav-link">Home</a>
+                                        </Link>
+                                        {/*
+                                          <a href="/" className="nav-link">Home</a> 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/">
-                                                    <a className="nav-link">Home One</a>
+                                                    <a className="nav-link">Home One j</a>
                                                 </Link>
                                             </li>
                                             
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/home-two">
-                                                    <a className="nav-link">Home Two</a>
+                                                    <a className="nav-link">Home Two d</a>
                                                 </Link>
                                             </li>
-                                        </ul>
+                                        </ul>  */}
                                     </li>
     
                                     <li className="nav-item">
@@ -89,7 +93,7 @@ class DefaultStyle extends React.Component {
                                         </Link>
                                     </li>
                                     
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link activeClassName="active" href="#">
                                             <a href="#" className="nav-link">Pages <Icon.ChevronDown /></a>
                                         </Link>
@@ -150,12 +154,12 @@ class DefaultStyle extends React.Component {
                                             </li>
                                         </ul>
                                     </li>
-    
+     */}
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="#">
-                                            <a className="nav-link">Blog <Icon.ChevronDown /></a>
+                                        <Link activeClassName="active" href="/blog">
+                                            <a className="nav-link">Blog</a>
                                         </Link>
-                                        <ul className="dropdown-menu">
+                                        {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/blog">
                                                     <a className="nav-link">Blog</a>
@@ -166,8 +170,8 @@ class DefaultStyle extends React.Component {
                                                 <Link activeClassName="active" href="/blog-details">
                                                     <a className="nav-link">Blog Details</a>
                                                 </Link>
-                                            </li>
-                                        </ul>
+                                            </li> 
+                                        </ul> */}
                                     </li>
     
                                     <li className="nav-item">
@@ -182,9 +186,9 @@ class DefaultStyle extends React.Component {
                                 <Link href="#">
                                     <a className="btn btn-light">Support</a>
                                 </Link>
-                                <Link href="#">
+                                {/* <Link href="#">
                                     <a className="btn btn-primary">Login</a>
-                                </Link>
+                                </Link> */}
                             </div>
                         </nav>
                     </div> 

@@ -11,8 +11,8 @@ const BoxArea = (props) => {
 							<div className="icon">
                                 <Icon.Server />
 							</div>
-							<h3>Zero Configuration</h3>
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<h3>Website development</h3>
+							<p>We development webiste which is for the people and by the people.Why not make work simple.</p>
 						</div>
 					</div>
 
@@ -21,8 +21,8 @@ const BoxArea = (props) => {
 							<div className="icon">
                                 <Icon.Code />
 							</div>
-							<h3>Code Security</h3>
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<h3>UX Design</h3>
+							<p>We design things which will define you and your work.State your taste and we promise to serve the receipe right.</p>
 						</div>
 					</div>
 
@@ -31,7 +31,7 @@ const BoxArea = (props) => {
 							<div className="icon">
                                 <Icon.Users />
 							</div>
-							<h3>Team Management</h3>
+							<h3>Branding</h3>
 							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
 						</div>
 					</div>
@@ -41,7 +41,7 @@ const BoxArea = (props) => {
 							<div className="icon">
                                 <Icon.GitBranch />
 							</div>
-							<h3>Access Controlled</h3>
+							<h3>SEO and Deployment</h3>
 							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
 						</div>
 					</div>

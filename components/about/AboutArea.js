@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <section className="about-area ptb-80">
+        <section className="about-area ptb-50">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 col-md-12">
@@ -16,14 +16,18 @@ export default function About() {
 							<div className="section-title">
 								<h2>About Us</h2>
 								<div className="bar"></div>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p>We are a team of industry etc</p>
 							</div>
+							<div>
+								<h3>Our Story</h3>
+								<p>When dreamers meet and sit together to fulfill one dream of thiers, great things happens.May be our story will be also like that</p>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis egestas ante, sed viverra nunc tincidunt nec nteger nonsed condimntum elit, sit amet feugiat lorem. Proin tempus sagittis velit vitae scelerisque.</p>
-
-							<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+							<p>We are</p>
 
 							<p>Business-to-business metrics analytics value proposition funding angel investor entrepreneur alpha ramen equity gamification. Social proof partner network research.</p>
+							</div>
+
+							
 						</div>
 					</div>
 				</div>
@@ -33,21 +37,21 @@ export default function About() {
 						<div className="col-lg-4 col-md-6">
 							<div className="about-text">
 								<h3>Our History</h3>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p>Lets meet to know each other more</p>
 							</div>
 						</div>
 
 						<div className="col-lg-4 col-md-6">
 							<div className="about-text">
 								<h3>Our Mission</h3>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p>Lets simply work and add art to it.</p>
 							</div>
 						</div>
 
 						<div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 							<div className="about-text">
 								<h3>Who we are</h3>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p>Simply put,We are a bunch of industry battered designers and expert coders</p>
 							</div>
 						</div>
 					</div>

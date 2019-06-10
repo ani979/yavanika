@@ -90,64 +90,8 @@ export default class ContactBody extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-                <section className="contact-info-area ptb-80">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6">
-                                <div className="contact-info-box">
-                                    <div className="icon">
-                                        <Icon.Mail />
-                                    </div>
-                                    <h3>Mail Here</h3>
-                                    <p>
-                                        <Link href="#">
-                                            <a>admin@startp.com</a>
-                                        </Link>
-                                    </p>
-                                    <p>
-                                        <Link href="#">
-                                            <a>info@startp.com</a>
-                                        </Link>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6">
-                                <div className="contact-info-box">
-                                    <div className="icon">
-                                        <Icon.Map />
-                                    </div>
-                                    <h3>Visit Here</h3>
-                                    <p>27 Division St, New York, NY 10002, <br /> USA</p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                                <div className="contact-info-box">
-                                    <div className="icon">
-                                        <Icon.Phone />
-                                    </div>
-                                    <h3>Call Here</h3>
-                                    <p>
-                                        <Link href="#">
-                                            <a>+123 456 7890</a>
-                                        </Link>
-                                    </p>
-                                    <p>
-                                        <Link href="#">
-                                            <a>+241 452 4526</a>
-                                        </Link>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <GoogleMapComponent />
-
-                <section className="contact-area ptb-80">
+            <React.Fragment>          
+                {/* <section className="contact-area ptb-50">
                     <div className="container">
                         <div className="section-title">
                             <h2>Get In Touch With Us</h2>
@@ -254,7 +198,61 @@ export default class ContactBody extends React.Component {
                             </div>
                         </div>
                     </div>
+                </section> */}
+                <section className="contact-info-area ptb-50">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6">
+                                <div className="contact-info-box">
+                                    <div className="icon">
+                                        <Icon.Mail />
+                                    </div>
+                                    <h3>Mail Here</h3>
+                                    <p>
+                                        <Link href="#">
+                                            <a>admin@startp.com</a>
+                                        </Link>
+                                    </p>
+                                    <p>
+                                        <Link href="#">
+                                            <a>xyz@gmail.com</a>
+                                        </Link>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6">
+                                <div className="contact-info-box">
+                                    <div className="icon">
+                                        <Icon.Map />
+                                    </div>
+                                    <h3>Visit Here</h3>
+                                    <p>27 Division St, New York, NY 10002, <br /> USA</p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                                <div className="contact-info-box">
+                                    <div className="icon">
+                                        <Icon.Phone />
+                                    </div>
+                                    <h3>Call Here</h3>
+                                    <p>
+                                        <Link href="#">
+                                            <a>+123 456 7890</a>
+                                        </Link>
+                                    </p>
+                                    <p>
+                                        <Link href="#">
+                                            <a>+241 452 4526</a>
+                                        </Link>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
+                <GoogleMapComponent />
             </React.Fragment>
         )
     }

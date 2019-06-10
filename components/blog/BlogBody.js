@@ -5,7 +5,7 @@ import * as Icon from 'react-feather'
 export default class BlogBody extends React.Component {
     render() {
         return (
-            <section className="blog-area ptb-80">
+            <section className="blog-area ptb-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">

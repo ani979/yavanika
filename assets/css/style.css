@@ -94,6 +94,11 @@ p:last-child {
   padding-bottom: 80px;
 }
 
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .bg-f7fafd {
   background-color: #f7fafd;
 }
@@ -2305,8 +2310,8 @@ Page Title CSS
   position: relative;
   z-index: 1;
   background: transparent url('../../images/banner-bg1.jpg') right top no-repeat;
-  padding-top: 190px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
