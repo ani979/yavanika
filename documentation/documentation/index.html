@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>BRIDLE - React + Bootstrap 4 Admin Template</title>
+
+        <!-- Styles -->
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+
+        <!-- Scripts -->
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+        <!-- Sidebar -->
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#documenter_cover">Features</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#file_structure" title="Getting Started">File Structure</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#top_nav_menu" title="Top Nav Menu">Navigation</a></li>
+                <li><a href="#change_layout" title="Change Layout">Change Layout</a></li>
+                <li><a href="#component_structure" title="HTML Structure">Component Structure</a></li>
+                <li><a href="#fonts_used" title="Fonts used">Fonts used</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+        <!-- END Sidebar -->
+
+        <header class="site-header navbar-transparent"> 
+            <!-- Banner -->
+            <div class="banner auto-size" style="background-color: #2962ff">
+                <div class="container-fluid text-white">
+                    <h1><strong>BRIDLE - React</strong> Documentation</h1>
+                </div>
+            </div>
+            <!-- END Banner --> 
+        </header>
+        
+        <main class="container-fluid"> 
+
+            <!-- Main content -->
+            <article class="main-content" role="main">
+                <section id="documenter_cover">
+                    <h2>BRIDLE - React + Bootstrap 4 Admin Template</h2>
+                    <div id="documenter_buttons"> </div>
+                    Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!
+                    <h6><strong>Pages Components:</strong></h6>
+                    <ul>
+                        <li>Dashboard Default (<b>src/pages/Dashboard/Dashboard.js</b>)</li>
+                        <li>Dashboard Two (<b>src/pages/Dashboard/DashboardTwo.js</b>)</li>
+                        <li>Dashboard Three (<b>src/pages/Dashboard/DashboardThree.js</b>)</li>
+                        <li>Emails/Inbox (<b>src/pages/Inbox/Inbox.js</b>)</li>
+                        <li>Chat (<b>src/pages/Chat/Chat.js</b>)</li>
+                        <li>Todos (<b>src/pages/Todos.js</b>)</li>
+                        <li>Notes (<b>src/pages/Notes.js</b>)</li>
+                        <li>Calendar (<b>src/pages/Calendar.js</b>)</li>
+                        <li>Search (<b>src/pages/Search.js</b>)</li>
+                        <li>Notification (<b>src/pages/Notification.js</b>)</li>
+                        <li><b>UI-Components</b></li>
+                        <ul>
+                            <li>Alerts (<b>src/pages/UI-Components/Alerts.js</b>)</li>
+                            <li>Badges (<b>src/pages/UI-Components/Badges.js</b>)</li>
+                            <li>Buttons (<b>src/pages/UI-Components/Buttons.js</b>)</li>
+                            <li>Cards (<b>src/pages/UI-Components/Cards.js</b>)</li>
+                            <li>Dropdowns (<b>src/pages/UI-Components/Dropdowns.js</b>)</li>
+                            <li>Forms (<b>src/pages/UI-Components/Forms.js</b>)</li>
+                            <li>ListGroups (<b>src/pages/UI-Components/ListGroups.js</b>)</li>
+                            <li>Modals (<b>src/pages/UI-Components/Modals.js</b>)</li>
+                            <li>ProgressBars (<b>src/pages/UI-Components/ProgressBars.js</b>)</li>
+                            <li>Tables (<b>src/pages/UI-Components/Tables.js</b>)</li>
+                            <li>Tabs (<b>src/pages/UI-Components/TemplateTabs.js</b>)</li>
+                        </ul>
+                        <li><b>User</b></li>
+                        <ul>
+                            <li>Signup (<b>src/pages/Signup.js</b>)</li>
+                            <li>Login (<b>src/pages/Login.js</b>)</li>
+                            <li>Forgot Password (<b>src/pages/ForgotPassword.js</b>)</li>
+                        </ul>
+                        <li><b>Apex-Charts</b></li>
+                        <ul>
+                            <li>Area Charts Components (<b>src/pages/Apex-Charts/area-charts-components</b>)</li>
+                            <li>Bar Charts Components (<b>src/pages/Apex-Charts/bar-charts-components</b>)</li>
+                            <li>Column Charts Components (<b>src/pages/Apex-Charts/column-charts-components</b>)</li>
+                            <li>Column Charts Components (<b>src/pages/Apex-Charts/line-charts-components</b>)</li>
+                            <li>Column Charts Components (<b>src/pages/Apex-Charts/mixed-charts-components</b>)</li>
+                            <li>Column Charts Components (<b>src/pages/Apex-Charts/pie-donuts-charts-components</b>)</li>
+                            <li>More...</li>
+                        </ul>
+                        <li><b>Map</b></li>
+                        <ul>
+                            <li>Google Map (<b>src/pages/Map/CustomGoogleMap.js</b>)</li>
+                            <li>Vector Map Components (<b>src/pages/Map/CustomJVectorMap.js</b>)</li>
+                        </ul>
+                        <li><b>Icons</b></li>
+                        <ul>
+                            <li>FeatherIcons (<b>src/pages/Icons/FeatherIcons.js</b>)</li>
+                            <li>IcofontIcons (<b>src/pages/Icons/IcofontIcons.js</b>)</li>
+                        </ul>
+                    </ul>
+                    
+					<h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+						<li>AppRouter (<b>src/routes/AppRouter.js</b>)</li>
+                        <li>Navigation (<b>src/components/Navigation/Navigation.js</b>)</li>
+                        <li>SideMenu (<b>src/components/Navigation/SideMenu/SideMenu.js</b>)</li>
+                        <li>Loader (<b>src/components/Common/Loader.js</b>)</li>
+                        <li>Side Bar Color Switcher (<b>src/components/Common/ColorSwitch.js</b>)</li>
+                    </ul>
+					
+                    <h6 style="margin-top:20px"><strong>Admin Dashboard Features:</strong></h6>
+                    <ul>
+                        <li>Multipurpose Dashboard</li>
+                        <li>Two variations of sidebar color</li>
+                        <li>Easy to customize</li>
+                        <li>Sales by <b>Yearly</b></li>
+                        <li>Sales by <b>Countries</b></li>
+                        <li>Last Month Sales</li>
+                        <li>Last 18 Days Sales</li>
+                        <li>Dynamic ToDo List</li>
+                        <li>Dynamic Notes</li>
+                        <li>Search</li>
+                        <li>Emails/Inbox</li>
+                        <li>Chat</li>
+                        <li>Calendar</li>
+                        <li>Top Rated Products</li>
+                        <li>Tickets Summary</li>
+                        <li>User Pages <b>Signup, Login, Forgot Password</b></li>
+                        <li>Product Categories</li>
+                        <li>User Activities</li>
+                        <li>New Users</li>
+                        <li>Payments Status</li>
+                        <li>Best Sellers</li>
+                        <li>Google Map</li>
+                        <li><strong>Separate</strong> component</li>
+                        <li>Bootstrap UI Components 10+</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Clean & Simple Design</li>
+                        <li>Fully Responsive Layout</li>
+                        <li>Crossbrowser Compatible with Edge, IE9+, Firefox, Safari, Opera, Chrome</li>
+                        <li>W3 Valid</li>
+                        <li>Retina ready</li>
+                        <li>Line Icons <strong>Free icons</strong></li>
+                        <li>Powered with Bootstrap <strong>(4.x)</strong></li>
+                        <li>Smooth animation </li>
+                        <li><strong>Well documented</strong></li>
+                        <li><strong>Many More...</strong></li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <li>Item Name : BRIDLE - React + Bootstrap 4 Admin Template</li>
+                        <li>Created: February 26, 2019</li>
+                        <li>Version 0.1</li>
+                        <li>By: <a target="_blank" href="https://themeforest.net/user/envytheme/portfolio"> EnvyTheme</a></li>
+                        <li>Email: <a href="mailto:hello@envytheme.com">hello@envytheme.com</a></li>
+                    </ul>
+                    <p></p>
+                </section>
+                
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        In order to kickstart the development of your web app with BRIDLE, the very first thing you need to do is to setup a react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="http://nodejs.org/" target="_blank">http://nodejs.org/</a>
+                        </p>
+                    </ul>
+
+                    <ul>
+                        <li><b>Yarn</b></li>
+                        <p>
+                            Download the latest version of the most loved dependency management tool for react applications from its official site <a href="https://yarnpkg.com/" target="_blank">https://yarnpkg.com/</a> and install it on your machine.
+                        </p>
+                    </ul>
+                    
+                    <div class="page-header">
+                        <h3>Preparation</h3>
+                    </div>
+                    <p>
+                        You'll need to install <a href="https://nodejs.org/en/" href="_blank">Node.js >=v8.11.4 (Recommended Version)</a> (NPM comes along with it) and serve (a NPM package)
+                    </p>
+                    <p>Use terminal and navigate to the project root.</p>
+                    <p>Then run : <code class="language-markup">npm install</code></p>
+                    <p>Then run : <code class="language-markup">npm start</code></p>
+                    <p>It'll return something like this:</p>
+                    <p>Serving!</p>
+                    <p>- Local: http://localhost:3000</p>
+                    <p>- On Your Network: http://192.168.1.18:3000</p>
+
+                    <div class="page-header">
+                        <h3><a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-build" target="_blank">Build</a></h3>
+                    </div>
+
+                    <p>Run to build the project : <code class="language-markup">npm run build</code> The build artifacts will be stored in the <strong>build/</strong> directory.</p>
+                    <div class="page-header">
+                        <h3><a href="https://facebook.github.io/create-react-app/docs/deployment" target="_blank">Static Server</a></h3>
+                    </div>
+                    <p>For environments using Node, the easiest way to handle this would be to install serve and let it handle the rest:</p>
+                    <p><code class="language-markup">npm install -g serve</code></p>
+                    <p><code class="language-markup">serve -s build</code></p>
+                    <p>The last command shown above will serve your static site on the port 5000. Like many of <a href="https://github.com/zeit/serve" target="_blank">serve’s</a> internal settings</p>
+                    <p>It'll return something like this:</p>
+                    <p>Serving!</p>
+                    <p>- Local: http://localhost:5000</p>
+                    <p>- On Your Network: http://192.168.1.18:5000</p>
+                </section>
+
+                <section id="file_structure">
+                    <div class="page-header">
+                        <h3>File Structure</h3>
+                    </div>
+                   <img src="images/structure.jpg" alt="structure">
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies Packages</h3>
+                    </div>
+                    <p> These are the all <strong>dependencies</strong> files which are used in the Axolot template</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+    "apexcharts": "^3.6.2",
+    "bootstrap": "^4.2.1",
+    "echarts": "^4.2.0-rc.2",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "faker": "^4.1.0",
+    "google-map-react": "^1.1.2",
+    "history": "^4.7.2",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.4",
+    "react-accessible-accordion": "^2.4.5",
+    "react-apexcharts": "^1.3.0",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.4",
+    "react-feather": "^1.1.6",
+    "react-flip-move": "^3.0.3",
+    "react-icofont": "0.0.6",
+    "react-images": "^0.5.19",
+    "react-infinite-calendar": "^2.3.1",
+    "react-jvectormap": "0.0.6",
+    "react-photo-gallery": "^6.3.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+                
+                <section id="top_nav_menu">
+                    <div class="page-header">
+                        <h3>Navigation</h3>
+                    </div>
+                    <p>In the <strong>Top Navbar:</strong></p> <p>This functions used for state  <code class="language-markup">sideMenu</code> <code class="language-markup">true</code> or <code class="language-markup">false</code>
+<pre class="line-numbers">
+<code class="lang-JS">
+state = {
+    sideMenu: false,
+    ...
+};
+
+_toggleClass = () => {
+    const currentSideMenu = this.state.sideMenu;
+    this.setState({sideMenu: !currentSideMenu});
+    this.props.onClick(this.state.sideMenu);
+}
+</code>
+</pre>
+<p>Because based on <code class="language-markup">this.state.sideMenu</code></p> <p>We can identify the classess for toggle, such as below:
+<pre class="line-numbers">
+<code class="lang-JSX">
+&lt;div className={`burger-menu ${this.state.sideMenu ? 'toggle-menu' : ''}`} onClick={this._toggleClass}&gt
+</code>
+</pre>
+                </section>
+
+                <section id="change_layout">
+                    <div class="page-header">
+                        <h3>Change Layout</h3>
+                    </div>
+                    <p>The template sidebar menu default is dark layout, if you want to change this with light default then you have to follow this steps</p>
+
+                    <h6 class="sm-title">Step 1:</h6>
+                    <p>In the <strong>Navigation:</strong> which is placed in src/components/Navigation/Navigation.js</p>
+                    <p>Comment out this import statement</p>
+                    <p><code class="language-markup">import SideMenuDark from './SideMenu/SideMenuDark';</code></p>
+                    
+                    <h5 class="sm-title">Step 2:</h5>
+                    <p>Remove the <code class="language-markup">menuColor</code> state from state</p>
+
+                    <h4 class="sm-title">Step 3:</h4>
+                    <p>Remove the arrow class which is <code class="language-markup">onSideMenuHandler</code></p>
+
+                    <h4 class="sm-title">Step 4:</h4>
+                    <p>Replace the <code class="language-markup"><SideMenuLight /></code> component with ternary JSX syntax from below of Navigation class</p>
+
+                    <h4 class="sm-title">Step 5 & finally:</h4>
+                    <p>Remove the swither component <code class="language-markup"><ColorSwitch onClick={this.onSideMenuHandler} /></code> from below of Navigation class</p>
+                </section>
+
+               
+                
+                <section id="component_structure">
+                    <div class="page-header">
+                        <h3>React Component Structure</h3>
+                    </div>
+                    <p>This is the react component structure. For more information about this visit <a target="_blank" href="//reactjs.org/docs/components-and-props.html"><strong>React Component</strong></a>.</p>
+                    <pre class="line-numbers">
+<code class="lang-JSX">
+import React, { Component } from 'react';
+
+class SampleComponent extends Component {
+    state = {  }
+    render() { 
+        return (  
+        &lt;React.Fragment&gt;
+            &lt;h1&gt;This is Sample Component&lt;/h1&gt;
+        &lt;/React.Fragment&gt;
+        );
+    }
+}
+</code>
+                    </pre>
+                </section>
+			
+                <section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts used</h3>
+                    </div>
+                    <p> By default, the template loads <strong>Montserrat</strong> font from Google Web Font Services, you can change the font with the one that suits you best.</p>
+                    <p>You will find the font code in the &quot;<strong>style.scss</strong>&quot; file: <code class="language-css">src/assets/css/style.scss</code></p>
+                    <pre class="line-numbers">
+<code class="language-css">
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+</code>
+                    </pre>
+                </section>
+                
+                <section id="credits">
+                    <div class="page-header">
+                        <h3>Credits</h3>
+                    </div>
+                    <strong>Images</strong><br>
+                    <a href="https://unsplash.com/" target="_blank">Unsplash</a><br />
+                    <a href="https://burst.shopify.com/" target="_blank">Burst</a><br />
+                    <a href="https://www.freepik.com/" target="_blank">Freepick</a><br />
+
+                    <div class="height-15"></div>
+
+                    <strong>Packages</strong><br>
+                    
+
+                    <a href="https://www.npmjs.com/package/react" target="_blank">React</a><br />
+
+                    <a href="https://www.npmjs.com/package/react-dom" target="_blank">ReactDom</a><br />
+
+                    <a href="https://www.npmjs.com/package/react-router-dom" target="_blank">React Router Dom</a><br />
+
+                    <a href="https://www.npmjs.com/package/react-bootstrap" target="_blank">React Bootstrap</a><br />
+
+                    <a href="https://getbootstrap.com/docs/4.3/getting-started/download/#npm" target="_blank">Bootstrap</a><br />
+
+                    <a href="https://ecomfe.github.io/echarts-examples/public/index.html" target="_blank">ECharts</a><br />
+
+                    <a href="https://github.com/hustcc/echarts-for-react#echarts-for-react" target="_blank">echarts-for-react</a><br />
+
+                    <a href="https://www.npmjs.com/package/faker" target="_blank">Faker</a><br />
+
+                    <a href="https://github.com/google-map-react/google-map-react#google-map-react----" target="_blank">Google Map React</a><br />
+
+                    <a href="https://www.npmjs.com/package/history" target="_blank">History</a><br />
+
+                    <a href="https://www.npmjs.com/package/node-sass" target="_blank">Node Sass</a><br />
+
+                    <a href="https://www.npmjs.com/package/prop-types" target="_blank">PropTypes</a><br />
+
+                    <a href="https://www.npmjs.com/package/react-flip-move" target="_blank">React Flip Move</a><br />
+
+                    <a href="https://www.npmjs.com/package/react-infinite-calendar" target="_blank">React Infinite Calendar</a><br />
+
+                    <a href="https://www.npmjs.com/package/react-scripts" target="_blank">React Scripts</a><br />
+
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a><br />
+                    <a href="https://www.npmjs.com/package/react-jvectormap" target="_blank">react-jvectormap</a><br />
+                    <a href="https://github.com/jossmac/react-images" target="_blank">react-images</a><br />
+                    <a href="https://github.com/neptunian/react-photo-gallery" target="_blank">react-photo-gallery</a><br />
+                    <a href="https://www.npmjs.com/package/react-icofont" target="_blank">react-icofont</a><br />
+                    <a href="https://github.com/feathericons/react-feather" target="_blank">react-feather</a><br />
+                    <a href="https://apexcharts.com/docs/react-charts/" target="_blank">react-apexcharts</a><br />
+                    <a href="https://github.com/springload/react-accessible-accordion" target="_blank">react-accessible-accordion</a><br />
+                    <a href="https://apexcharts.com/" target="_blank">apexcharts</a><br />
+
+                </section>
+                
+                <section id="supports">
+                    <div class="page-header">
+                        <h3>Support</h3>
+                    </div>
+                    <p><strong>Again, thank you for purchasing this Template!</strong></p>
+                    <p> If you have any questions, please use our profile contact form on Envato ( <a target="_blank" href="https://themeforest.net/user/envytheme">https://themeforest.net/user/envytheme</a> ). <br>
+                    We aim to answer all questions within <strong>24 hours</strong> . In some cases the waiting time can be extended to <strong>48 hours.</strong></p>
+                    <p>Email: <a href="mailto:hello@envytheme.com">hello@envytheme.com</a></p>
+                </section>
+            </article>
+            <!-- END Main content --> 
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; 2019. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="mailto:hello@envytheme.com">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END Footer -->
+
+    </body>
+</html>
